@@ -1,2 +1,2 @@
 # HiViTrack
-A novel hierarchical object tracking method, inspired by HiViT, using MLP for shallow feature extraction.
+A novel hierarchical visual object tracking method, inspired by HiViT, using MLP for shallow feature extraction.
