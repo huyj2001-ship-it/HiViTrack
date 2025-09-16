@@ -32,11 +32,12 @@ Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transfor
 
 ## 📦 Installation
 
--Use the Anaconda
+### Use the Anaconda
 ```
 conda create -n Hivitrack python=3.7.16
 conda activate Hivitrack
 bash install.sh
 ```
+### Put the tracking datasets in ./data. It should look like:
 
 
