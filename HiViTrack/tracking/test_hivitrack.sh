@@ -6,7 +6,7 @@
 ##########-------------- MixViT-B -----------------##########
 ### LaSOT test and evaluation
 #python tracking/test.py hivitr baseline_small --dataset lasot --threads 8 --num_gpus 2 --runid 392  --params__model Hivitr_ep0400.pth.tar
-python tracking/test.py hivitr baseline_small_swin --dataset lasot --threads 30 --num_gpus 3  --runid 01 --params__model Hivitr_ep0080.pth.tar
+python tracking/test.py hivitr baseline --dataset lasot --threads 30 --num_gpus 3  --runid 391 --params__model Hivitr_ep0391.pth.tar
 #python tracking/test.py hivitr baseline_tiny --dataset got10k_test --threads 8 --num_gpus 2 --runid 400
 #python tracking/analysis_results.py --dataset_name lasot --tracker_param baseline_tiny_400
 #python tracking/analysis_results.py --dataset_name lasot --tracker_param baseline_384_agent_400
