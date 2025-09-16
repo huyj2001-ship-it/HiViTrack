@@ -72,3 +72,13 @@ After running this command, you can also modify paths by editing these two files
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
+
+### Train HiViTrack
+```
+bash tracking/train_hivitrack.sh
+```
+
+### Test and evaluate HiViTrack on benchmarks
+```
+bash tracking/test_HiViTrack_vit.sh
+```
