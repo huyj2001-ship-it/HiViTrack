@@ -61,3 +61,14 @@ ${HiViTrack_ROOT}
          |-- TRAIN_11
          |-- TEST
 ```
+
+### Set project paths
+Run the following command to set paths for this project
+```
+python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir .
+```
+After running this command, you can also modify paths by editing these two files
+```
+lib/train/admin/local.py  # paths about training
+lib/test/evaluation/local.py  # paths about testing
+```
