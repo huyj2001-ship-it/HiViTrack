@@ -16,7 +16,9 @@ Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transfor
 
 ## 📦 Installation
 
-- Python 3.7.16  
-- PyTorch 1.13.1+cu116  
-- CUDA 11.6  
-- GPU: RTX 3090 (24GB) or equivalent (training tested on 2× RTX 3090)  
+-Use the Anaconda
+'''
+conda create -n Hivitrack python=3.7.16
+conda activate Hivitrack
+bash install.sh
+'''
