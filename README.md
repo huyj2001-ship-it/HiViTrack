@@ -14,14 +14,19 @@ Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transfor
 - **TPU (Target-Prompt Update)** – Efficient online template refinement during inference without heavy optimization.  
 - Achieves superior performance on **LaSOT, TrackingNet, GOT-10k, VOT2022, LaSOText, and VastTrack** benchmarks.  
 
-| Backbone | Tracker | LaSOT<br>AUC (%) | TrackingNet<br>AUC (%) | GOT-10k<br>AO (%) | LaSOT<sub>ext</sub><br>AUC (%) |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| DiMP [13] | 56.9 | 74.0 | 61.1 | 39.2 |
-| ARTrack [31] | 70.4 | 84.2 | 73.5 | - |
-| LoReTrack [33] | 70.3 | 82.9 | 73.5 | 51.3 |
-| SuperSBT-Base [37] | 70.0 | 84.0 | 74.4 | 48.1 |
-| **Offline HiViTrack (Ours)** | 68.8 | 83.2 | 71.7 | 49.2 |
-| **HiViTrack (Ours)** | **70.3** | **84.5** | **73.0** | **51.1** |
+| Backbone | Tracker | Publication | LaSOT<br>AUC (%) | TrackingNet<br>AUC (%) | GOT-10k<br>AO (%) | GOT-10k<br>SR<sub>0.75</sub> (%) | LaSOT<sub>ext</sub><br>AUC (%) |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **CNN** | SiamRPN++ [9] | CVPR2019 | 49.6 | 73.3 | 51.7 | 32.5 | 34.0 |
+| | DiMP [13] | ICCV2019 | 56.9 | 74.0 | 61.1 | 49.2 | 39.2 |
+| **Plain Transformer** | STARK [7] | ICCV2021 | 67.1 | 82.0 | 68.8 | 64.1 | - |
+| | OSTrack-256 [5] | ECCV2022 | 69.1 | 83.1 | 71.0 | 68.2 | 47.4 |
+| | ARTrack [31] | CVPR2023 | 70.4 | 84.2 | 73.5 | 70.9 | - |
+| | LoReTrack [33] | IROS2025 | 70.3 | 82.9 | 73.5 | 70.4 | 51.3 |
+| **Hierarchical Trans.** | SwinTrack-T [8] | NeurIPS2022 | 67.2 | 81.1 | 71.3 | 64.5 | 49.1 |
+| | MixFormer-1K [4] | CVPR2022 | 67.9 | 82.6 | 73.2 | 70.2 | - |
+| | SuperSBT-Base [37] | TPAMI2025 | 70.0 | 84.0 | 74.4 | 71.3 | 48.1 |
+| **Hierarchical Trans.** | **Offline HiViTrack** | **Ours** | 68.8 | 83.2 | 71.7 | 70.5 | 49.2 |
+| **Hierarchical Trans.** | **HiViTrack** | **Ours** | **70.3** | **84.5** | **73.0** | **71.3** | **51.1** |
 
 ---
 
