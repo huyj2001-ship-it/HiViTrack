@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transformer with Efficient Target-Prompt Update for Visual Object Tracking.  
 
-![示例图片](./HiViTrack/tracking/OnlineHiViTr - V22.pdf)
+![示例图片](./HiViTrack/tracking/hivitr_online.png)
 
 ---
 
