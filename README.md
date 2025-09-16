@@ -16,12 +16,12 @@ Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transfor
 
 | Backbone | Tracker | LaSOT<br>AUC (%) | TrackingNet<br>AUC (%) | GOT-10k<br>AO (%) | LaSOT<sub>ext</sub><br>AUC (%) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| CNN | DiMP [13] | 56.9 | 74.0 | 61.1 | 39.2 |
-| Plain Transformer | ARTrack [31] | 70.4 | 84.2 | 73.5 | - |
-| | LoReTrack [33] | 70.3 | 82.9 | 73.5 | 51.3 |
-| Hierarchical Trans. | SuperSBT-Base [37] | 70.0 | 84.0 | 74.4 | 48.1 |
-| **Hierarchical Trans.** | **Offline HiViTrack (Ours)** | 68.8 | 83.2 | 71.7 | 49.2 |
-| **Hierarchical Trans.** | **HiViTrack (Ours)** | **70.3** | **84.5** | **73.0** | **51.1** |
+| DiMP [13] | 56.9 | 74.0 | 61.1 | 39.2 |
+| ARTrack [31] | 70.4 | 84.2 | 73.5 | - |
+| LoReTrack [33] | 70.3 | 82.9 | 73.5 | 51.3 |
+| SuperSBT-Base [37] | 70.0 | 84.0 | 74.4 | 48.1 |
+| **Offline HiViTrack (Ours)** | 68.8 | 83.2 | 71.7 | 49.2 |
+| **HiViTrack (Ours)** | **70.3** | **84.5** | **73.0** | **51.1** |
 
 ---
 
