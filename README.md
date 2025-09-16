@@ -80,5 +80,5 @@ bash tracking/train_hivitrack.sh
 
 ### Test and evaluate HiViTrack on benchmarks
 ```
-bash tracking/test_HiViTrack_vit.sh
+bash tracking/test_hivitrack_vit.sh
 ```
