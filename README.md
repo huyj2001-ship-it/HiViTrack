@@ -1,2 +1,14 @@
 # HiViTrack
-A novel hierarchical visual object tracking method, inspired by HiViT, using MLP for shallow feature extraction.
+Official PyTorch implementation of HiViTrack, a Hierarchical Vision Transformer with Efficient Target-Prompt Update for Visual Object Tracking (Pattern Recognition, 2025).
+
+🔑 Highlights
+
+Hierarchical Vision Transformer Backbone – Combines lightweight MLP-based early layers with Transformer-based deeper layers.
+
+SSDR (Shallow Spatial Details Retention) – Preserves fine-grained spatial cues at low computational cost.
+
+DSMI (Deep Semantic Mutual Integration) – Enhances discrimination via hierarchical template–search feature fusion.
+
+TPU (Target-Prompt Update) – Efficient online template refinement during inference without heavy optimization.
+
+Achieves superior performance on LaSOT, TrackingNet, GOT-10k, VOT2022, LaSOText, and VastTrack benchmark
