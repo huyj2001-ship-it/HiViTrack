@@ -7,7 +7,7 @@
 # Stage1: train mixformer without SPM
 # --config: 对应模型的配置文件，放在experiments --save_dir:保存结果的路径  --mode single:单卡 multiple:多卡 
 # python tracking/train.py --script mixformer_vit --config baseline --save_dir ./result --mode single --nproc_per_node 1
-python tracking/train.py --script hivitr --config baseline_small_swin  --save_dir output/hivitr --mode multiple --nproc_per_node 2
+python tracking/train.py --script hivitr --config baseline  --save_dir output/hivitr --mode multiple --nproc_per_node 2
 ## Stage2: train mixformer_online, i.e., SPM (score prediction module)
 # python tracking/train.py --script mixformer_vit_online --config baseline --save_dir /YOUR/PATH/TO/SAVE/MIXFORMER --mode multiple --nproc_per_node 8 --stage1_model /STAGE1/MODEL
 #python tracking/train.py --script hivitr_online --config baseline_384_got --save_dir output/hivitr_online --mode multiple --nproc_per_node 3 --stage1_model output/hivitr/checkpoints/train/hivitr/baseline_384_got/Hivitr_ep0150.pth.tar
