@@ -15,7 +15,7 @@ Official PyTorch implementation of **HiViTrack**, a Hierarchical Vision Transfor
 - Achieves superior performance on **LaSOT, TrackingNet, GOT-10k, VOT2022, LaSOText, and VastTrack** benchmarks.  
 
 | Tracker | Publication | LaSOT<br>AUC (%) | TrackingNet<br>AUC (%) | GOT-10k<br>AO (%) | GOT-10k<br>SR<sub>0.75</sub> (%) |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| :--- | :--- | :---: | :---: | :---: | :---: |
 | SiamRPN++ [9] | CVPR2019 | 49.6 | 73.3 | 51.7 | 32.5 | 34.0 |
 | DiMP [13] | ICCV2019 | 56.9 | 74.0 | 61.1 | 49.2 | 39.2 |
 | STARK [7] | ICCV2021 | 67.1 | 82.0 | 68.8 | 64.1 | - |
