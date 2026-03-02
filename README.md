@@ -82,6 +82,9 @@ bash tracking/train_hivitrack.sh
 ```
 bash tracking/test_hivitrack.sh
 ```
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for the full license text.
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
