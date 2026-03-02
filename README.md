@@ -82,3 +82,19 @@ bash tracking/train_hivitrack.sh
 ```
 bash tracking/test_hivitrack.sh
 ```
+
+## Citation
+If you find this work useful for your research, please cite our paper:
+
+```bibtex
+@article{fang2026hivitrack,
+  title={HiViTrack: Hierarchical Vision Transformer with Efficient Target-Prompt Update for Visual Object Tracking},
+  author={Fang, Yang and Hu, Yujie and Xie, Bailian and Wang, Yujie and Xu, Zongyi and Li, Weisheng and Gao, Xinbo},
+  journal={Pattern Recognition},
+  pages={112992},
+  year={2026},
+  publisher={Elsevier}
+}
+
+
+
